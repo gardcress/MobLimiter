@@ -10,17 +10,12 @@ public class MobSpawnListener  implements Listener {
 
     @EventHandler
     public void onCreatureSpawnEvent(CreatureSpawnEvent event){
-//        System.out.println(event.getEntity().getType().name());
         for(String str : MobLimiter.disabledMobList){
             String mobTarget = event.getEntity().getType().name().toUpperCase();
             if(str.equalsIgnoreCase(mobTarget)){
-//                System.out.println(mobTarget + " TRIED TO SPAWN, REFUSED IT");
                 event.setCancelled(true);
             }
 
         }
-
-
     }
-
 }

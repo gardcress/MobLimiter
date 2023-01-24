@@ -3,7 +3,7 @@ version: '${project.version}'
 main: tropaeo.com.moblimiter.MobLimiter
 api-version: 1.13
 authors: [ Tropaeo ]
-description: Plugin that lets you customize mob spawning on your server
+description: Lightweight plugin that lets you remove certain mob types from spawning
 commands:
   mlreload:
     description: Reload the MobLimiter plugin.

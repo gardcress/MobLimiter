@@ -1,3 +1,5 @@
 # Config for Moblimiter
 disabled-mobs:
   - "bat"
+  - "wither"
+  - "phantom"
