@@ -1,0 +1,6 @@
+name: MobLimiter
+version: '${project.version}'
+main: tropaeo.com.moblimiter.MobLimiter
+api-version: 1.19
+authors: [ Tropaeo ]
+description: Plugin that lets you customize mob spawning on your server
