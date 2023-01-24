@@ -1,6 +1,13 @@
 name: MobLimiter
 version: '${project.version}'
 main: tropaeo.com.moblimiter.MobLimiter
-api-version: 1.19
+api-version: 1.13
 authors: [ Tropaeo ]
 description: Plugin that lets you customize mob spawning on your server
+commands:
+  mlreload:
+    description: Reload the MobLimiter plugin.
+    usage: /<command>
+    aliases:
+      - mlreload
+
